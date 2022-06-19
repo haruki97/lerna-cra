@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {Button} from "components/src";
 
 function App() {
     const [count, setCount] = useState(0)
@@ -11,7 +12,7 @@ function App() {
         <p>
           Hello, now Count is {count}
         </p>
-        <button onClick={() => setCount(count + 1)}> Click to increase </button>
+        <Button onClick={() => setCount(count + 1)}/>
       </header>
     </div>
   );

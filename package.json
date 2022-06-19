@@ -9,5 +9,11 @@
     "packages": [
       "packages/**"
     ]
+  },
+  "scripts": {
+    "start": "lerna exec --scope app -- yarn start"
+  },
+  "dependencies": {
+    "@craco/craco": "^6.4.3"
   }
 }
